@@ -28,7 +28,7 @@ AC_LANG(C)
 # Checks for libraries.
 use_pthreads=no
 AC_SEARCH_LIBS([pthread_create], [pthread],
-  [use_pthreads=yes])
+  [use_pthreads=no])
 
 # Checks for header files.
 AC_HEADER_STDC
